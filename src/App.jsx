@@ -7,6 +7,11 @@ function App() {
   return (
    <div className='font-manrope bg-custom-bg min-h-screen p-4'>
     <Header />
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
    </div>
   )
 }
