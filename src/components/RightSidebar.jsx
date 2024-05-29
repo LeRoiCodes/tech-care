@@ -1,9 +1,13 @@
 // import React from 'react'
 
+import LabCard from "./LabCard"
+import PatientDetailsCard from "./PatientDetailsCard"
+
 function RightSidebar() {
   return (
-    <div className="w-1/4 bg-white border border-white rounded-2xl">
-      
+    <div className="w-1/4 h-[98%]">
+      <PatientDetailsCard />
+      <LabCard />
     </div>
   )
 }

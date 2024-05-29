@@ -39,7 +39,7 @@ function Header() {
         </div>
         <div className="right flex justify-between gap-4">
             <div className="flex justify-between gap-2 pr-2 border-r border-[#F6F7F8] ">
-                <img src={doctor} alt="" className=""/>
+                <img src={doctor} alt="" className="w-[48px] h-[48px]"/>
                 <div>
                     <p className="text-[14px] text-[#072635] font-bold">Dr Jose Simmons</p>
                     <p className="text-[14px] text-[#707070] font-normal">General Practitioner</p>

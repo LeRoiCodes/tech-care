@@ -11,7 +11,7 @@ function PatientMiniCard({ imgUrl, name, gender, age}) {
   return (
     <div className="ml-5 flex items-center justify-between mr-2 mt-5 mb-5">
         <div className="flex items-center justify-between gap-2 text-[14px]">
-            <img src={imgUrl} alt="patient" className="" />
+            <img src={imgUrl} alt="patient" className="w-[48px] h-[48px]" />
             <div>
                 <p className="font-bold text-[#072635]">{name}</p>
                 <p className="font-normal text-[#707070]">{`${gender}, ${age}`}</p>

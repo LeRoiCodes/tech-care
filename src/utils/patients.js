@@ -148,6 +148,66 @@ import samantha from "../assets/images/samantha.png"
         "gender": "female",
         "age": 57,
         "imgUrl": samantha
+    },{
+        "name": "Jessica Taylor",
+        "gender": "Female",
+        "age": 28,
+        "imgUrl": emily
+    },{
+        "name": "Samantha Johnson",
+        "gender": "female",
+        "age": 57,
+        "imgUrl": samantha
+    },{
+        "name": "Ryan Johnson",
+        "gender": "Male",
+        "age": 45,
+        "imgUrl": ryan
+    },{
+        "name": "Brandon Mitchel",
+        "gender": "Male",
+        "age": 36,
+        "imgUrl": brandon
+    },{
+        "name": "Jessica Taylor",
+        "gender": "Female",
+        "age": 28,
+        "imgUrl": emily
+    },{
+        "name": "Samantha Johnson",
+        "gender": "female",
+        "age": 57,
+        "imgUrl": samantha
+    },{
+        "name": "Jessica Taylor",
+        "gender": "Female",
+        "age": 28,
+        "imgUrl": emily
+    },{
+        "name": "Samantha Johnson",
+        "gender": "female",
+        "age": 57,
+        "imgUrl": samantha
+    },{
+        "name": "Ryan Johnson",
+        "gender": "Male",
+        "age": 45,
+        "imgUrl": ryan
+    },{
+        "name": "Brandon Mitchel",
+        "gender": "Male",
+        "age": 36,
+        "imgUrl": brandon
+    },{
+        "name": "Jessica Taylor",
+        "gender": "Female",
+        "age": 28,
+        "imgUrl": emily
+    },{
+        "name": "Samantha Johnson",
+        "gender": "female",
+        "age": 57,
+        "imgUrl": samantha
     },
 
 
