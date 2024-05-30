@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 // import React from 'react'
-import birth from '../assets/icons/BirthIcon.svg'
+// import birth from '../assets/icons/BirthIcon.svg'
 
-function DetailsIcon() {
+function DetailsIcon({icon, text, value}) {
   return (
     <div className='flex items-center gap-3 mt-3'>
-            <img src={birth} alt='icon'/>
+            <img src={icon} alt='icon'/>
             <div>
-                <p className='font-medium text-[14px]'>Date of Birth</p>
-                <p className='font-bold text-[14px]'>August 21 1996</p>
+                <p className='font-medium text-[14px]'>{text}</p>
+                <p className='font-bold text-[14px]'>{value}</p>
             </div>
         </div>
   )

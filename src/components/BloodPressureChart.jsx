@@ -35,7 +35,11 @@ const BloodPressureChart = ({ data }) => {
     },
   };
 
-  return <Line options={options} data={data} />;
+  return(
+  
+      <Line options={options} data={data} />
+
+  ) 
 };
 
 export default BloodPressureChart;

@@ -1,12 +1,17 @@
+/* eslint-disable react/prop-types */
 // import React from 'react'
 
-function DiagnosisList() {
+function DiagnosisList({item}) {
+ 
   return (
-    <div className="w-full flex justify-between items-center mt-2 mb-2 p-3">
-        <p className="w-1/3">Hypertension</p>
-        <p className="w-1/2">Chronic high blood pressure</p>
-        <p className="w-1/6">Under Observation</p>
+    <div className="">
+      <div className="w-full flex justify-between items-center h-[59px] pr-3 pl-3 ">
+        <p className="w-1/3">{item.name}</p>
+        <p className="w-1/2">{item.description}</p>
+        <p className="w-1/6">{item.status}</p>
         </div>
+        <hr className="" />
+    </div>
   )
 }
 
